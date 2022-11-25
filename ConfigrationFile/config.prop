@@ -1,0 +1,5 @@
+URL=https://automationpractice.com/index.php?
+username=admin@123.com
+password=Chrome
+impliciteWait=10
+pagrLoadTimeOut=30

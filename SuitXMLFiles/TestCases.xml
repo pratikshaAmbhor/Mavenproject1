@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <groups>
+    <run>
+     <include name="Sanity"/>
+     <include name="Smock"/>
+     <include name="Regration"/>
+     <include name="Retesting"/>
+    </run>
+   </groups>
+  <classes>
+     <class name="testngGrouping.Dog">
+     <methods>
+        <include name="One"/>
+        <include name="Two"/>
+        <include name="Three"/>
+        <include name="Four"/>
+        <include name="Five"/>
+       </methods>
+     </class>
+     </classes>
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
